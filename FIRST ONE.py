@@ -170,9 +170,21 @@ for thisTrial in trials:
     frameN = -1
     continueRoutine = True
     
+   
+    
     target.setColor(color, colorSpace='rgb')
     target.setText(word)
     response = event.BuilderKeyResponse()
+    
+    # NO I TU POWINIEN DZIAŁAĆ FEEDBACK taki o :
+      #if not key_resp.keys :
+        #msg="Brak odpowiedzi"
+    #elif resp.corr:#stored on last run routine
+        #msg="Prawidłowe! RT=%.3f" %(resp.rt)
+    #else:
+        #msg="Ups, pomyliłeś się"
+        #ale nie działa, więc chuj wie o co cho
+        #im gonna figure it out 
 
     trialComponents = [target, response, instrukcjewtrakcie]
     for thisComponent in trialComponents:
