@@ -7,4 +7,4 @@ Bardzo dobrze się _bawię_, obiecuję.
 
   1 | 2 | 3
 ---------------|-------------|-------------|
- [**Test stroopa**](FIRST ONE.py) |Eksperyment głosowy|Eksperyment obrazkowy|
+Test stroopa |Eksperyment głosowy|Eksperyment obrazkowy|
