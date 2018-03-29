@@ -5,6 +5,6 @@ Bardzo dobrze się _bawię_, obiecuję.
 
 ### Oto moje plany
 
-|-------|-------|--------|
-|---1---|---2---|---3----|
-|![Test stroopa](FIRST ONE.py)|Eksperyment głosowy|Eksperyment obrazkowy|
+  1 | 2 | 3
+---------------|-------------|-------------|
+![Test stroopa](FIRST ONE.py)|Eksperyment głosowy|Eksperyment obrazkowy|
