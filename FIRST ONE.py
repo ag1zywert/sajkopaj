@@ -216,7 +216,6 @@ for thisTrial in trials:
             event.clearEvents(eventType='keyboard')
         if response.status == STARTED:
             theseKeys = event.getKeys(keyList=['left', 'right', 'down'])
-            
           
             if "escape" in theseKeys:
                 endExpNow = True
@@ -228,8 +227,9 @@ for thisTrial in trials:
                     response.corr = 1
                 else:
                     response.corr = 0
-                # a response ends the routine
+              
                 continueRoutine = False
+                  #dobra a co jak ktoś nie odpowie to czemu się nie wyświetla dalej, tylko trzeba coś wcisnąć? :(
         
       
         if t >= 0.0 and instrukcjewtrakcie.status == NOT_STARTED:
