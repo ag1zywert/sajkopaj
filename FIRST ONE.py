@@ -289,4 +289,5 @@ core.quit()
 #Co trzeba poprawić:
 #- Feedback - po pierwsze, żeby się to dobrze zapisywało po drugie, ze móc wyświetlić badanemu "Liczba poprawnych odpowiedzi to $msg a liczba nie poprawnych to $msg1? (???)
 #- Coś zrobić z tym, żeby jak ktoś oleje/nie zdąży z odpowiedzią to żeby nie musiał nic wciskać żeby szło dalej?
+# - MIERZENIE CZASU I FEEDBACK Z CZASEM REAKCJI
 
