@@ -178,21 +178,21 @@ while continueRoutine:
     t = startClock.getTime()
     frameN = frameN + 1 
     
-    # *text* updates
+    
     if t >= 0.0 and text.status == NOT_STARTED:
-        # keep track of start time/frame for later
+    
         text.tStart = t
-        text.frameNStart = frameN  # exact frame index
+        text.frameNStart = frameN 
         text.setAutoDraw(True)
     
-    # *image* updates
+   
     if t >= 0.0 and image.status == NOT_STARTED:
-        # keep track of start time/frame for later
+      
         image.tStart = t
-        image.frameNStart = frameN  # exact frame index
+        image.frameNStart = frameN  
         image.setAutoDraw(True)
     
-    # *key_resp_2* updates
+    # *key_resp_2*
     if t >= 0.0 and key_resp_2.status == NOT_STARTED:
         # keep track of start time/frame for later
         key_resp_2.tStart = t
