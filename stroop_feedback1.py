@@ -361,7 +361,7 @@ for thisPractice in practice:
             word.frameNStart = frameN  # exact frame index
             word.setAutoDraw(True)
         
-        # *resp* updates
+      
         if t >= 0.5 and resp.status == NOT_STARTED:
             # keep track of start time/frame for later
             resp.tStart = t
@@ -804,6 +804,18 @@ while continueRoutine:
     # refresh the screen
     if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
         win.flip()
+        
+ if t >= 0.0 and feedback_3.status == NOT_STARTED:
+           
+            feedback_3.tStart = t
+            feedback_3.frameNStart = frameN  
+            feedback_3.setAutoDraw(True)
+        frameRemains = 0.0 + 1.0- win.monitorFramePeriod
+        core.quit()
+
+        if feedback_3.status == STARTED and t >= frameRemains:
+            feedback_3.setAutoDraw(False)        
+            win.flip()
 
 # -------Ending Routine "thanks"-------
 for thisComponent in thanksComponents:
@@ -811,6 +823,7 @@ for thisComponent in thanksComponents:
         thisComponent.setAutoDraw(False)
 # the Routine "thanks" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
+
 
 
 # these shouldn't be strictly necessary (should auto-save)
